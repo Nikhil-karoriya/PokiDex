@@ -87,6 +87,7 @@ img{
     background: linear-gradient(180deg, hsla(0, 1%, 53%, 0.774), hsla(60, 5%, 50%, 0.815) );
     box-shadow: 2px 2px 8px hsl(197, 57%, 39%), -2px -2px 8px hsl(110, 85%, 51%);
     transform: scale(1.1);
+    cursor: pointer;
 }
 #card:hover #bottom-line{
     border-bottom: 2px solid  hsl(0, 0%, 100%);
