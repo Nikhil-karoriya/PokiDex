@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokiView</title>
+    <link rel="stylesheet" href="./7_pokiStyle.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
+</head>
+<body>
+    <H1 id="ph1">Poki-Dex</H1>
+    <div >
+        <input type="text" placeholder="Search Pokemon" id="searchBox">
+        <button onclick="getPokemon()" id="btn">Get Pokemon</button>
+    </div>
+    <div id="card">
+        <h3 id="pokiname">Pikachu</h3>
+        <img src="" alt=".." id="sprite">
+        <div id="bottom-line"></div>
+        <div id="details">
+            <p id="hp">HP:</p>
+            <p id="attack">Attack:</p>
+            <p id="defense">Defense:</p>
+            <p id="speed">Speed:</p>
+            <p id="ability">ability:</p>
+            <p id="type">Type:</p>
+        </div>  
+    </div>
+    <script src="./7_pokiApi.js"></script>
+</body>
+</html>
