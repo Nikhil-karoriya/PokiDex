@@ -13,9 +13,8 @@
 ## 📸 Preview
 
 _A preview of the PokiDex application interface._  
-*(You can add a screenshot image here named `screenshot.png` in your repo and update the line below)*
-
-
+<img src="Assets/Card1.jpeg" alt="App Screenshot" width="500" height="600"/>
+<img src="Assets/Card2.png" alt="App Screenshot" width="500" height="600"/>
 ## 🚀 Features
   🔍 Search Functionality
   : Input a Pokémon's name to retrieve its information.
